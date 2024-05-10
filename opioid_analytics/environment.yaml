@@ -1,0 +1,38 @@
+# conda env create -f environment.yaml
+
+name: opioid_env
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+
+# Standard packages for running in VS Code
+  - python
+  - pip
+  - jupyter
+
+# Data manipulation
+  - numpy
+  - pandas
+  - pyarrow
+
+# Data Plotting
+  - matplotlib
+  - seaborn
+  - plotly
+
+# Model Buliding
+  - scikit-learn
+
+  # Which one do you want?
+  # - pytorch
+  # - tensorflow
+
+# Documentation
+  - sphinx
+
+
+  - pip:
+    # Pip items here
