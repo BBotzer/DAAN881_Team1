@@ -23,8 +23,10 @@ dependencies:
   - seaborn
   - plotly
 
-# Model Buliding
+# Data Analysis and Model Buliding
   - scikit-learn
+  - scipy
+  - statsmodels # May not work with due to OpenSSL error; Use pip
 
   # Which one do you want?
   # - pytorch
@@ -36,3 +38,4 @@ dependencies:
 
   - pip:
     # Pip items here
+    - statsmodels
