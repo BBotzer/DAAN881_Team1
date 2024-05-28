@@ -16,6 +16,7 @@ dependencies:
 # Data manipulation
   - numpy
   - pandas
+  - openpyxl
   - pyarrow
 
 # Data Plotting
