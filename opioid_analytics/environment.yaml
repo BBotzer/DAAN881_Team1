@@ -16,7 +16,9 @@ dependencies:
 # Data manipulation
   - numpy
   - pandas
+# Faster excel readers
   - openpyxl
+  - python-calamine
   - pyarrow
 
 # Data Plotting
