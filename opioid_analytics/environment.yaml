@@ -28,6 +28,7 @@ dependencies:
 
 # Data Analysis and Model Buliding
   - scikit-learn
+  - boruta_py # feature importance
   - scipy
   - statsmodels # May not work with due to OpenSSL error; Use pip
 
