@@ -5,6 +5,8 @@ name: opioid_env
 channels:
   - defaults
   - conda-forge
+  - pytorch
+  - nvidia
 
 dependencies:
 
@@ -32,9 +34,15 @@ dependencies:
   - scipy
   - statsmodels # May not work with due to OpenSSL error; Use pip
 
-  # Which one do you want?
-  # - pytorch
+  # Deep Neural Networks
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
   # - tensorflow
+
+  # HuggingFace for NLP
+  - transformers
 
 # Documentation
   - sphinx
