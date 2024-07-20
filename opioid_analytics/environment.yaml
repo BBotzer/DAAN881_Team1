@@ -27,6 +27,7 @@ dependencies:
   - matplotlib
   - seaborn
   - plotly
+  - graphviz # tree graphs
 
 # Data Analysis and Model Buliding
   - scikit-learn
